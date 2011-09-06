@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(:version => 20110906054633) do
 
   create_table "widgets", :force => true do |t|
     t.string   "name"
+    t.integer  "size"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
